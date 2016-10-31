@@ -3,7 +3,7 @@ A super condensed JavaScript reference for Watch and Code students.
 
 # `this`
 
-#### 1. In a regular function, `this` points to `window`. This is the default case.
+Case 1: In a regular function, `this` points to `window`. This is the default case.
 
 ```javascript
 function logThis() {
@@ -13,7 +13,7 @@ function logThis() {
 logThis(); // window
 ```
 
-#### 2. In a method, `this` points to the object that contains the method. 
+Case 2: In a method, `this` points to the object that contains the method. 
 
 ```javascript
 var myObject = {
@@ -41,7 +41,7 @@ var anotherObject = {
 anotherObject.anotherMethod(); // window
 ```
 
-#### 3. In a callback function, assume the default case unless the outer function explicitly sets `this`.
+Case 3: In a callback function, assume the default case unless the outer function explicitly sets `this`.
 
 ```javascript
 function outerFunction(callback) {
@@ -53,7 +53,7 @@ outerFunction(function() {
 });
 ```
 
-#### 4. In a function that's being called as a constructor, `this` points to the object that the constructor is creating.
+Case 4: In a function that's being called as a constructor, `this` points to the object that the constructor is creating.
 
 ```javascript
 function Person(name) {
@@ -64,7 +64,7 @@ var gordon = new Person('gordon');
 console.log(gordon); // {name: 'gordon'}
 ```
 
-#### 5. When you explicitly set the value of `this` manually using `bind`, `apply`, or `call`, it's all up to you.
+Case 5: When you explicitly set the value of `this` manually using `bind`, `apply`, or `call`, it's all up to you.
 
 ```javascript
 function logThis() {
