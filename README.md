@@ -1,6 +1,11 @@
 # cheatsheet-js
 A super condensed JavaScript reference for [Watch and Code](https://watchandcode.com/) students.
 
+# Required resources
+
+- [Watch and Code](http://watchandcode.com/p/premium)
+- [How to be great at asking coding questions](https://medium.com/@gordon_zhu/how-to-be-great-at-asking-questions-e37be04d0603#.y2roq84t7)
+
 # Understanding `this`
 
 ### Case 1: In a regular function, `this` points to `window`. This is the default case.
