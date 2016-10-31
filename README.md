@@ -41,7 +41,7 @@ var anotherObject = {
 anotherObject.anotherMethod(); // window
 ```
 
-### Case 3: In a callback function, assume the default case unless the outer function explicitly sets `this`.
+### Case 3: In a callback function, assume the default case unless the outer function explicitly sets `this` on the callback function.
 
 ```javascript
 function outerFunction(callback) {
