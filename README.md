@@ -7,7 +7,7 @@ A super condensed JavaScript reference for Watch and Code students.
 
 2. In a method, `this` points to the object that contains the method. For example, if you run `myObject.myMethod()`, `this` points to `myObject`. However, other functions called in the body of `myObject.myMethod` will revert back to the default case.
 
-3. In a callback function, assume the default case unless the outer function explicitly defines `this` (see #5).
+3. In a callback function, assume the default case unless the outer function explicitly sets `this` (see the last rule).
 
 4. In a function that's being called as a constructor, `this` points to the object that the constructor will create and return.
 
