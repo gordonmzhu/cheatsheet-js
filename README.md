@@ -24,10 +24,9 @@ var myObject = {
 
 myObject.myMethod(); // myObject
 
-/ *
-  * However, for functions that are called inside of myObject.myMethod
-  * (like anotherFunction), `this` will revert to the default case.
-/ *
+
+// However, for functions that are called inside of myObject.myMethod
+// (like anotherFunction), `this` will revert to the default case.
 
 function anotherFunction() {
   console.log(this);
