@@ -1,7 +1,7 @@
 # cheatsheet-js
-A super condensed JavaScript reference for Watch and Code students.
+A super condensed JavaScript reference for [Watch and Code](https://watchandcode.com/) students.
 
-# `this`
+# Understanding `this`
 
 ### Case 1: In a regular function, `this` points to `window`. This is the default case.
 
