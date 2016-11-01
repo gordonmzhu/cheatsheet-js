@@ -8,7 +8,7 @@ A super condensed JavaScript reference for [Watch and Code](https://watchandcode
 
 # How to read source code
 
-### Wny it’s important
+### Why it’s important
 
 1. Most of your time will be spent reading, not writing.
 2. Simulates working at a company or open source project.
