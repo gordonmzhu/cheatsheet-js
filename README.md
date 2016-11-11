@@ -42,7 +42,7 @@ A super condensed JavaScript reference for [Watch and Code](https://watchandcode
 
 # Understanding `this`
 
-### Case 1: In a regular function, `this` points to `window`. This is the default case.
+### Case 1: In a regular function (or if you're not in a function at all), `this` points to `window`. This is the default case.
 
 ```javascript
 function logThis() {
