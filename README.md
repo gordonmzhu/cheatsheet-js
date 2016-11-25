@@ -52,7 +52,7 @@ function logThis() {
 logThis(); // window
 ```
 
-### Case 2: In a method, `this` points to the object that contains the method. 
+### Case 2: In a method, `this` points to the object that calls the method. 
 
 ```javascript
 var myObject = {
