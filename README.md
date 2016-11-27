@@ -52,7 +52,7 @@ function logThis() {
 logThis(); // window
 ```
 
-### Case 2: When a function is called as a method, `this` points to the object that contains the method.
+### Case 2: When a function is called as a method, `this` points to the object that contains the method (aka "left of the dot rule").
 
 ```javascript
 
