@@ -52,9 +52,20 @@ function logThis() {
 logThis(); // window
 ```
 
-### Case 2: In a method, `this` points to the object that contains the method. 
+### Case 2: When a function is called as a method, `this` points to the object that contains the method.
 
 ```javascript
+
+/*
+ * You can also think of this as the "left of the dot" rule. 
+ * For example, in myObject.myMethod(), `this` will always be myObject
+ * because, myObject is to the left of the dot.
+ *
+ * Of course, if you're using this syntax object[myMethod](),
+ * technically it would be the "left of the dot or bracket" rule,
+ * but that sounds clumsy and generally terrible.
+ */
+
 var myObject = {
   myMethod: function() {
     console.log(this);
