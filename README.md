@@ -52,7 +52,7 @@ function logThis() {
 logThis(); // window
 ```
 
-### Case 2: When a function is called as a method, `this` points to the object that's on the left side of the dot (aka "left of the dot rule").
+### Case 2: When you run a function as a method, `this` points to the object that's on the left side of the dot (aka "left of the dot rule").
 
 ```javascript
 
@@ -75,8 +75,8 @@ var myObject = {
 myObject.myMethod(); // myObject
 
 
-// However, for functions that are called inside of myObject.myMethod
-// (like anotherFunction), `this` will revert to the default case.
+// However, if you run a function inside of myObject.myMethod,
+// `this` will revert to the default case. See below:
 
 function anotherFunction() {
   console.log(this);
@@ -103,7 +103,7 @@ outerFunction(function() {
 });
 ```
 
-### Case 4: In a function that's being called as a constructor, `this` points to the object that the constructor is creating.
+### Case 4: In a function that you run as a constructor, `this` points to the object that the constructor is creating.
 
 ```javascript
 function Person(name) {
