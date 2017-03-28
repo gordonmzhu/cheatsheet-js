@@ -127,4 +127,17 @@ function logThis() {
 var explicitlySetLogThis = logThis.bind({name: 'Gordon'});
 
 explicitlySetLogThis(); // {name: 'Gordon'}
+
+// Note that a function can only be bound once. Example below.
+
+function iCanOnlyBeBoundOnce() {
+  console.log(this);
+}
+
+var boundOnce = iCanOnlyBeBoundOnce.bind({name: 'The first time is forever'});
+
+// These attempts to change `this` are futile.
+boundOnce.bind({name: 'why even try?'})();
+boundOnce.apply({name: 'why even try?'});
+boundOnce.call({name: 'why even try?'});
 ```
