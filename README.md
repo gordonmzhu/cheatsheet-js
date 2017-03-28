@@ -50,6 +50,9 @@ function logThis() {
 }
 
 logThis(); // window
+
+// In strict mode, `this` will be `undefined` instead of `window`. 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
 ```
 
 ### Case 2: When a function is called as a method, `this` points to the object that's on the left side of the dot (aka "left of the dot rule").
