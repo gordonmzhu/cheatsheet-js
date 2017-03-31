@@ -127,7 +127,7 @@ boundOnce.apply({name: 'why even try?'});
 boundOnce.call({name: 'why even try?'});
 ```
 
-### Case 5: In a callback function, it depends.
+### Case 5: In a callback function, apply the above rules methodically.
 
 ```javascript
 
@@ -139,10 +139,32 @@ function logThis() {
   console.log(this);
 }
 
-// Here we just have the regular old default case.
+// (Case 1) Here we just have the regular old default case.
 outerFunction(logThis); // window
 
-// In this example, callAndBindToGordon overrides the default case
+// (Case 2) This is unusual (you'll probably NEVER see this) but possible.
+
+function callAsMethod(callback) {
+  var weirdObject = {
+    name: "Don't do this in real life"
+  };
+  
+  weirdObject.callback = callback;
+  
+  weirdObject.callback();
+}
+
+callAsMethod(logThis); // `weirdObject` will get logged to the console
+
+// (Case 3) You'll also probably never see this. But in case you do...
+
+function callAsConstructor(callback) {
+  new callback();
+}
+
+callAsConstructor(logThis); // a new object will be logged to the console
+
+// (Case 4) In this example, callAndBindToGordon overrides the default case
 // and explicitly sets `this` to the `gordon` object.
 function callAndBindToGordon(callback) {
   var gordon = {name: 'Gordon'};
@@ -152,7 +174,7 @@ function callAndBindToGordon(callback) {
 
 callAndBindToGordon(logThis); // {name: 'Gordon'}
 
-// In a twist, we give `callAndBindToGordon` a function that's already been bound.
+// (Case 4) In a twist, we give `callAndBindToGordon` a function that's already been bound.
 var boundOnce = logThis.bind({name: 'The first time is forever'});
 callAndBindToGordon(boundOnce); // {name: 'The first time is forever'}
 ```
