@@ -164,8 +164,7 @@ function callAsConstructor(callback) {
 
 callAsConstructor(logThis); // the new object created by logThis will be logged to the console
 
-// (Case 4) In this example, callAndBindToGordon overrides the default case
-// and explicitly sets `this` to the `gordon` object.
+// (Case 4) In this example, callAndBindToGordon overrides the default case with `bind`.
 function callAndBindToGordon(callback) {
   var gordon = {name: 'Gordon'};
   var boundCallback = callback.bind({name: 'Gordon'});
