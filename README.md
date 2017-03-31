@@ -147,7 +147,7 @@ outerFunction(logThis); // window
 
 /*
  * Case 2: Call the callback as a method
- * (This is unusual (you'll probably NEVER see this) but possible.)
+ * (You'll probably NEVER see this, but I guess it's possible.)
  */
  
 function callAsMethod(callback) {
