@@ -64,7 +64,7 @@ logThis(); // window
  * For example, in myObject.myMethod(), `this` will be myObject
  * because, myObject is to the left of the dot.
  *
- * Of course, if you're using this syntax object[myMethod](),
+ * Of course, if you're using this syntax object['myMethod'](),
  * technically it would be the "left of the dot or bracket" rule,
  * but that sounds clumsy and generally terrible.
  */
