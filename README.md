@@ -94,19 +94,7 @@ var anotherObject = {
 anotherObject.anotherMethod(); // window
 ```
 
-### Case 3: In a callback function, assume the default case unless the outer function explicitly sets `this` on the callback function (see case #5 for how to explicitly set `this`).
-
-```javascript
-function outerFunction(callback) {
-  callback();
-}
-
-outerFunction(function() {
-  console.log(this); // window
-});
-```
-
-### Case 4: In a function that's being called as a constructor, `this` points to the object that the constructor is creating.
+### Case 3: In a function that's being called as a constructor, `this` points to the object that the constructor is creating.
 
 ```javascript
 function Person(name) {
@@ -117,7 +105,7 @@ var gordon = new Person('gordon');
 console.log(gordon); // {name: 'gordon'}
 ```
 
-### Case 5: When you explicitly set the value of `this` manually using `bind`, `apply`, or `call`, it's all up to you.
+### Case 4: When you explicitly set the value of `this` manually using `bind`, `apply`, or `call`, it's all up to you.
 
 ```javascript
 function logThis() {
@@ -137,4 +125,34 @@ var boundOnce = logThis.bind({name: 'The first time is forever'});
 boundOnce.bind({name: 'why even try?'})();
 boundOnce.apply({name: 'why even try?'});
 boundOnce.call({name: 'why even try?'});
+```
+
+### Case 5: In a callback function, it depends.
+
+```javascript
+
+function outerFunction(callback) {
+  callback();
+}
+
+function logThis() {
+  console.log(this);
+}
+
+// Here we just have the regular old default case.
+outerFunction(logThis); // window
+
+// In this example, callAndBindToGordon overrides the default case
+// and explicitly sets `this` to the `gordon` object.
+function callAndBindToGordon(callback) {
+  var gordon = {name: 'Gordon'};
+  var boundCallback = callback.bind({name: 'Gordon'});
+  boundCallback();
+}
+
+callAndBindToGordon(logThis); // {name: 'Gordon'}
+
+// In a twist, we give `callAndBindToGordon` a function that's already been bound.
+var boundOnce = logThis.bind({name: 'The first time is forever'});
+callAndBindToGordon(boundOnce); // {name: 'The first time is forever'}
 ```
