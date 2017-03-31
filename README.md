@@ -143,21 +143,18 @@ function logThis() {
 outerFunction(logThis); // window
 
 // (Case 2) This is unusual (you'll probably NEVER see this) but possible.
-
 function callAsMethod(callback) {
   var weirdObject = {
     name: "Don't do this in real life"
   };
   
   weirdObject.callback = callback;
-  
   weirdObject.callback();
 }
 
 callAsMethod(logThis); // `weirdObject` will get logged to the console
 
 // (Case 3) You'll also probably never see this. But in case you do...
-
 function callAsConstructor(callback) {
   new callback();
 }
