@@ -55,14 +55,14 @@ logThis(); // window
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
 ```
 
-### Case 2: When a function is called as a method, `this` points to the object that's on the left side of the dot (aka "left of the dot rule").
+### Case 2: When a function is called as a method, `this` points to the object that's on the left side of the dot.
 
 ```javascript
 
 /*
  * You can also think of this as the "left of the dot" rule. 
  * For example, in myObject.myMethod(), `this` will be myObject
- * because, myObject is to the left of the dot.
+ * because myObject is to the left of the dot.
  *
  * Of course, if you're using this syntax object['myMethod'](),
  * technically it would be the "left of the dot or bracket" rule,
@@ -77,21 +77,6 @@ var myObject = {
 
 myObject.myMethod(); // myObject
 
-
-// However, for functions that are called inside of myObject.myMethod
-// (like anotherFunction), `this` will revert to the default case.
-
-function anotherFunction() {
-  console.log(this);
-}
-
-var anotherObject = {
-  anotherMethod: function() {
-    anotherFunction();
-  }
-};
-
-anotherObject.anotherMethod(); // window
 ```
 
 ### Case 3: In a function that's being called as a constructor, `this` points to the object that the constructor is creating.
