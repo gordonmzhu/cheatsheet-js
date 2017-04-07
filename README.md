@@ -162,7 +162,6 @@ callAsConstructor(logThis); // the new object created by logThis will be logged 
  */
  
 function callAndBindToGordon(callback) {
-  var gordon = {name: 'Gordon'};
   var boundCallback = callback.bind({name: 'Gordon'});
   boundCallback();
 }
