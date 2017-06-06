@@ -69,6 +69,12 @@ logThis(); // window
  * Of course, if you're using this syntax myObject['myMethod'](),
  * technically it would be the "left of the dot or bracket" rule,
  * but that sounds clumsy and generally terrible.
+ *
+ * If you have multiple dots, the relevant dot is the one closest 
+ * to the method call.
+ *
+ * For example, if you have firstObject.secondObject.someMethod();
+ * `this` inside of someMethod will be secondObject.
  */
 
 var myObject = {
