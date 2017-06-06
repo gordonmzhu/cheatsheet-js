@@ -71,10 +71,8 @@ logThis(); // window
  * but that sounds clumsy and generally terrible.
  *
  * If you have multiple dots, the relevant dot is the one closest 
- * to the method call.
- *
- * For example, if you have firstObject.secondObject.someMethod();
- * `this` inside of someMethod will be secondObject.
+ * to the method call. For example, if you have one.two.hi();
+ * `this` inside of hi will be two.
  */
 
 var myObject = {
