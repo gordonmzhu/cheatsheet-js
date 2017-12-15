@@ -31,7 +31,7 @@ A super condensed JavaScript reference for [Watch and Code](https://watchandcode
 3. Do a quick read-through without diving into concepts from #2.
 4. Test one feature with the debugger.
 5. Document and add comments to confusing areas.
-6. Research items in #3 only if required.
+6. Research items in #2 only if required.
 7. Repeat.
 
 ### Next level
