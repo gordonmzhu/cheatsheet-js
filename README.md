@@ -22,17 +22,17 @@ A super condensed JavaScript reference for [Watch and Code](https://watchandcode
 3. Play with the code to see how it behaves.
 4. Think about how the code might be implemented.
 5. Get the code into an editor so that you can modify it.
+6. Look at the file structure.
 
 ### The process
 
-1. Look at the file structure.
-2. Get a sense for the vocabulary.
-3. Keep a note of unfamiliar concepts that you'll need to research later.
-4. Do a quick read-through without diving into concepts from #3.
-5. Test one feature with the debugger.
-6. Document and add comments to confusing areas.
-7. Research items in #3 only if required.
-8. Repeat.
+1. Get a sense for the vocabulary.
+2. Keep a note of unfamiliar concepts that you'll need to research later.
+3. Do a quick read-through without diving into concepts from #3.
+4. Test one feature with the debugger.
+5. Document and add comments to confusing areas.
+6. Research items in #3 only if required.
+7. Repeat.
 
 ### Next level
 
