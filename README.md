@@ -27,7 +27,7 @@ A super condensed JavaScript reference for [Watch and Code](https://watchandcode
 ### The process
 
 1. Get a sense for the vocabulary.
-2. Keep a note of unfamiliar concepts that you'll need to research later.
+2. Make note of any unfamiliar concepts that you might need to research later.
 3. Do a quick read-through without diving into concepts from #2.
 4. Test one feature with the debugger.
 5. Document and add comments to confusing areas.
