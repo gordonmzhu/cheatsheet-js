@@ -32,7 +32,7 @@ A super condensed JavaScript reference for [Watch and Code](https://watchandcode
 4. Test one feature with the debugger.
 5. Document and add comments to confusing areas.
 6. Research items in #2 only if required.
-7. Repeat.
+7. Repeat steps 4-6 until you've reached your desired understanding.
 
 ### Next level
 
