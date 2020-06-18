@@ -2,7 +2,7 @@
 
 ## Intro
 
-* Through programming, I can help students improve at three core life skills: logic, communication, and health (especially mental health).
+* Through programming, you can work on three core life skills: logic, communication, and health (especially mental health).
 * The Watch and Code approach has three distinct stages: beginning, middle, and late.
 * The beginning stage is focused on teaching you the mechanics of programming from the computer's perspective.
 * The middle stage helps you understand existing programs through methodically reading code.
