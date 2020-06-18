@@ -1,6 +1,13 @@
-Practical JavaScript
+# Practical JavaScript notes
 
-Intro
+## Intro
+
+* Through programming, I can help students improve at three core life skills: logic, communication, and health (especially mental health).
+* The Watch and Code approach has three distinct stages: beginning, middle, and late.
+* The beginning stage is focused on teaching you the mechanics of programming from the computer's perspective.
+* The middle stage helps you understand existing programs through methodically reading code.
+* The late stage is where you'll contribute to a large existing software project. The objectives are to learn through independent action in a team environment.
+* Try to set up a system where you code as often as possible (ideally every day). Focus your energy on being consistent. Don't worry about how much you get done on any given day. The goal is not to be the hero of a random day, week, or month, but to be a hero over the span of a long career.
 
 Language considerations
 
