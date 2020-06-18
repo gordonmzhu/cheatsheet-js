@@ -9,7 +9,11 @@
 * The late stage is where you'll contribute to a large existing software project. The objectives are to learn through independent action in a team environment.
 * Try to set up a system where you code as often as possible (ideally every day). Focus your energy on being consistent. Don't worry about how much you get done on any given day. The goal is not to be the hero of a random day, week, or month, but to be a hero over the span of a long career.
 
-Language considerations
+## Language considerations
+
+* There are four aspects that make a programming language good for learning. The language is ideally (1 easy to read), has a (2 compact syntax), is (3 easy to set up), and is (4 clearly useful).
+* JavaScript does reasonably well in (1 easy to read), very poorly in (2 compact syntax). It does exceptionally well in the last two aspects (3 easy to set up) and (4 clearly useful).
+* We can make JavaScript very nearly the perfect language for learning by teaching only the essential features of the language at the beginning. In doing so, we force the language to have a compact syntax. Later on, we can layer on the optional features of the language.
 
 Support
 
