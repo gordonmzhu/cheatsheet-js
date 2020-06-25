@@ -15,12 +15,12 @@
 * JavaScript does reasonably well in (1 easy to read), very poorly in (2 compact syntax). It does exceptionally well in the last two aspects (3 easy to set up) and (4 clearly useful).
 * We can make JavaScript very nearly the perfect language for learning by teaching only the essential features of the language at the beginning. In doing so, we force the language to have a compact syntax. Later on, we can layer on the optional features of the language.
 
-Support
+## Support
 
 * Office hours on Mondays.
 * If you continue beyond this intro course, you'll have access to a Slack group and daily Zoom meetings where you can get help. 
 
-Get ready
+## Get ready
 
 * Use Google Chrome and VS Code.
 * Make sure that you set up VS Code *exactly* the way I do it.
