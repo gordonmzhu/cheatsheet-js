@@ -29,7 +29,11 @@
 * The computer is a harsh taskmaster. Character level precision matters. If you can't get this right, you will fail.
 * This is the easy part. Do not fail at the easy part.
 
-Todo lists are so f&ast;&ast;king lame. Or are they?
+## Todo lists are so f&ast;&ast;king lame. Or are they?
+
+* You can learn more than you think from building a todo list.
+* Almost every site is a todo list. There are exceptions, but not many.
+* Our todo list is gonna be ugly because we are purposely ignoring visual style.
 
 V1 - Getting started
 
