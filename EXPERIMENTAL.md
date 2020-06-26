@@ -35,7 +35,19 @@
 * Almost every site is a todo list. There are exceptions, but not many.
 * Our todo list is gonna be ugly because we are purposely ignoring visual style.
 
-V1 - Getting started
+## V1 - Getting started
+
+* Arrays are lists: `['Item 1', 'Item 2', 'Item 3']`.
+* Variables are nicknames for data: `var todos = ['Item 1', 'Item 2', 'Item 3']`.
+* Semicolons act sort of like periods do in English. They don't appear at the end of every line though.
+* Proper semicolon usage is particularly important when you are saving to a file, so pay close attention to how I use semicolons in `todoList.html`. I'll note exceptions as we get to them.
+* You can ignore my semicolon usage in the console since I treat that environment like a temporary scratchpad/whiteboard.
+* Use `console.log` to display data in the console. Example: `console.log('hi hi hi!')`.
+* Computers start counting from 0, not 1.
+* On an array, use `.push` to add data to the end of the array. Example: `myArray.push('new data')`.
+* Get an element at a certain position: `array[position]`.
+* Change an element at a certain position: `array[position] = 'changed!`.
+* Remove an element at a certain position: `array.splice(position, 1)`.
 
 Functions - Interlude
 
