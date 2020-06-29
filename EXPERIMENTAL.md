@@ -25,7 +25,7 @@
 * Use Google Chrome and VS Code.
 * Make sure that you set up VS Code *exactly* the way I do it.
 * Don't worry about HTML and DO NOT UNDER ANY CIRCUMSTANCES WASTE TIME MEMORIZING STUFF.
-* Make sure you HTML file is structured exactly like mine too. If not, you will fail.
+* Make sure your HTML file is structured exactly like mine too. If not, you will fail.
 * The computer is a harsh taskmaster. Character level precision matters. If you can't get this right, you will fail.
 * This is the easy part. Do not fail at the easy part.
 
