@@ -49,7 +49,37 @@
 * Change an element at a certain position: `array[position] = 'changed!`.
 * Remove an element at a certain position: `array.splice(position, 1)`.
 
-Functions - Interlude
+## Functions - Interlude
+
+* Characteristic 1: Functions group multiple lines of code together under a single name.
+
+```javascript
+// Declaring a function.
+function functionName() {
+  // Body of function. You can put 0 or more 
+  // lines of code between the curly braces.
+}
+
+// To run the function, add a set of parentheses to the function name.
+functionName();
+```
+
+* Characteristic 2: When you a run a function, you can provide the function with data.
+
+```javascript
+// myData is a parameter. Parameters differ from variables in two ways:
+// 1. Parameters are declared at the same time a function is created.
+// 2. Parameters are assigned a value only when the function is run.
+function demoFunction(myData) {
+  console.log(myData);
+}
+
+demoFunction('gordon'); // myData = 'gordon'
+demoFunction('watch and code'); // myData = 'watch and code'
+
+// Notice that we do NOT use semicolons after the opening 
+// and closing curly braces in function declarations.
+```
 
 V2 - Using functions
 
