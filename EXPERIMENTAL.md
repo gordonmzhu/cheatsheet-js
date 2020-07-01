@@ -81,7 +81,16 @@ demoFunction('watch and code'); // myData = 'watch and code'
 // and closing curly braces in function declarations.
 ```
 
-V2 - Using functions
+## V2 - Using functions
+
+* Functions can have 0, 1, or *more* parameters.
+
+```javascript
+function edit(position, newValue) {
+  todos[position] = newValue;
+  console.log(todos);
+}
+```
 
 The computer's perspective - Interlude
 
