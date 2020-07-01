@@ -92,7 +92,16 @@ function edit(position, newValue) {
 }
 ```
 
-The computer's perspective - Interlude
+## The computer's perspective - Interlude
+
+* To understand the computer's perspective, you need to understand every little thing that happens in each line of code. To do this, you must learn how to use the debugger effectively.
+* When I see the "Step over" button, I think "step over to next line of code that's about to run".
+* When you hit "Step over", you will not necessarily go to the next line of code in the file. You have to think about what will happen.
+* The "Resume script execution" is sorta of like an unpause button. It'll exit the debugger or go to the next breakpoint (if there is one).
+* Delusional thinking is not compatible with success (programming or otherwise).
+* Use the expectations/reality framework (along with the debugger) to improve the quality of your thinking.
+* Use "Step into" to go into any function call *except* built-in functions.
+* Use the `debugger` statement to set breakpoints in the console without writing to a file. 
 
 Interlude - Functions and variables
 
