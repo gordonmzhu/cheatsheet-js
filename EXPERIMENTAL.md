@@ -130,6 +130,27 @@ console.log(todo.todoText); // 'Get groceries'
 console.log(todo.completed); // false
 ```
 
+## V4 - Toggling
+* Comparisons: Use `===` to see if two things are equal to each other.
+* Use if statements to conditionally run chunks of code.
+```javascript
+if (true) {
+  console.log('This line of code will run.');
+}
+
+if (false) {
+  console.log('This line of code will not run.');
+}
+```
+* `if/else` statements offer another way to structure conditional logic.
+```javascript
+if (condition) {
+  // Will run if condition is true.
+} else {
+  // Will run if condition is false.
+} 
+```
+
 ## Data types and comparisons - Interlude
 
 * JavaScript has two broad types of data, objects and primitives.
@@ -139,8 +160,6 @@ console.log(todo.completed); // false
 * Comparisons with primitives work how most people would expect (like math class).
 * Comparisons with objects work very differently.
 * Make sure you understand why `[1, 2, 3] === [1, 2, 3]` is `false`.
-
-V4 - Toggling
 
 V5 - Displaying data better
 
