@@ -108,7 +108,11 @@ function edit(position, newValue) {
 * Ask high quality questions. How you approach this will be a deciding factor in how good you will be.
 * Throughout your journey learning to program (or with anything really), you will be faced with choices like this. One path leads to high ability, the other path leads to low ability. Choose wisely.
 
-Interlude - Functions and variables
+## Functions and variables - Interlude
+
+* If you're inside of a function, you can look out and see data, but the opposite isn't true. If you're outside, you can't look in.
+* Whenever you're in doubt, draw circles and arrows. Arrows can only exit circles; they can never go in.
+* "Scope" is a fancy term for describing variable visibility.
 
 V3 - Using objects
 
