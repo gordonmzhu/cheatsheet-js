@@ -130,7 +130,15 @@ console.log(todo.todoText); // 'Get groceries'
 console.log(todo.completed); // false
 ```
 
-Interlude - Data types and comparisons
+## Data types and comparisons - Interlude
+
+* JavaScript has two broad types of data, objects and primitives.
+* Objects can be as complex as you want. Examples include arrays and functions.
+* Primitives are the simple building blocks of the language.
+* There are five main primitives: strings, numbers, booleans, undefined, and null.
+* Comparisons with primitives work how most people would expect (like math class).
+* Comparisons with objects work very differently.
+* Make sure you understand why `[1, 2, 3] === [1, 2, 3]` is `false`.
 
 V4 - Toggling
 
