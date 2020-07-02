@@ -114,7 +114,21 @@ function edit(position, newValue) {
 * Whenever you're in doubt, draw circles and arrows. Arrows can only exit circles; they can never go in.
 * "Scope" is a fancy term for describing variable visibility.
 
-V3 - Using objects
+## V3 - Using objects
+
+* `true` and `false` are boolean values.
+* Use objects to group related data together
+
+```javascript
+var todo = {
+  todoText: 'Get groceries',
+  completed: false
+};
+
+// Access properties with dot notation.
+console.log(todo.todoText); // 'Get groceries'
+console.log(todo.completed); // false
+```
 
 Interlude - Data types and comparisons
 
