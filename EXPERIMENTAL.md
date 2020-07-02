@@ -141,6 +141,10 @@ if (true) {
 if (false) {
   console.log('This line of code will not run.');
 }
+
+// Notice that we do NOT use semicolons after the opening 
+// and closing curly braces in if statements.
+
 ```
 * `if/else` statements offer another way to structure conditional logic.
 ```javascript
@@ -161,7 +165,23 @@ if (condition) {
 * Comparisons with objects work very differently.
 * Make sure you understand why `[1, 2, 3] === [1, 2, 3]` is `false`.
 
-V5 - Displaying data better
+## V5 - Displaying data better
+
+* Use a for-loop to repeat a piece of code any number of times.
+
+```javascript
+for (var i = 0; i < 5; i++) {
+  console.log(i);
+  // 0
+  // 1
+  // 2
+  // 3
+  // 4
+}
+
+// Notice that we do NOT use semicolons after the opening 
+// and closing curly braces in for-loops.
+```
 
 V6 - Toggle all
 
