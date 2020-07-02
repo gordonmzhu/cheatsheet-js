@@ -103,6 +103,11 @@ function edit(position, newValue) {
 * Use "Step into" to go into any function call *except* built-in functions.
 * Use the `debugger` statement to set breakpoints in the console without writing to a file. 
 
+## Questions and quality - Interlude 
+
+* Ask high quality questions. How you approach this will be a deciding factor in how good you will be.
+* Throughout your journey learning to program (or with anything really), you will be faced with choices like this. One path leads to high ability, the other path leads to low ability. Choose wisely.
+
 Interlude - Functions and variables
 
 V3 - Using objects
