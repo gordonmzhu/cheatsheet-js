@@ -183,7 +183,9 @@ for (var i = 0; i < 5; i++) {
 // and closing curly braces in for-loops.
 ```
 
-V6 - Toggle all
+## V6 - Toggle all
+
+* Boolean logic can be complicated. Make sure that you carefully think about different situations before you start coding. 
 
 V7 - Buttons!
 
