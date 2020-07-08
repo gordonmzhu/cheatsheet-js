@@ -187,7 +187,33 @@ for (var i = 0; i < 5; i++) {
 
 * Boolean logic can be complicated. Make sure that you carefully think about different situations before you start coding. 
 
-V7 - Buttons!
+## V7 - Buttons!
+
+* HTML syntax for buttons: `<button>My button</button>`.
+* Vocab lesson: A function on an object is called a "method".
+```javascript
+var gordon = { 
+  name: 'Gordon',                  // property
+  city: 'San Francisco',           // property
+  myMethod: function sayHi() {     // method
+    console.log('Hi');
+  }
+};
+```
+* Use the `document` object to access the webpage in your JavaScript.
+* Use the `document.getElementById` method to grab an element by id.
+```javascript
+var displayTodosButton = document.getElementById('display-todos-button');
+```
+* Elements have a `addEventListener` method, which can be used to respond to events.
+```javascript
+// The first argument is an event type.
+// The second argument is a function that'll run 
+// whenever the event occurs on the element.
+// In this example, whenever the displayTodosButton is clicked,
+// the displayTodos function will run.
+displayTodosButton.addEventListener('click', displayTodos);
+```
 
 Experimenting with functions - Interlude
 
