@@ -215,7 +215,38 @@ var displayTodosButton = document.getElementById('display-todos-button');
 displayTodosButton.addEventListener('click', displayTodos);
 ```
 
-Experimenting with functions - Interlude
+## Experimenting with functions - Interlude
+* You need to get to the point where the results of these experiments are obvious and familiar to you.
+```javascript
+function demoFunction() {}
+
+var experiment1 = demoFunction;   // ?
+var experiment2 = demoFunction(); // ?
+
+function demoFunctionThatReturnsAString() {
+  return 'a string';
+}
+ 
+var experiment3 = demoFunctionThatReturnsAString;   // ?
+var experiment4 = demoFunctionThatReturnsAString(); // ?
+
+function demoFunctionThatReturnsUndefined() {
+  return undefined;
+}
+
+var experiment5 = demoFunctionThatReturnsUndefined;   // ?
+var experiment6 = demoFunctionThatReturnsUndefined(); // ?
+
+function logThis(thing) {
+  console.log(thing);
+}
+
+// Experiment 7
+logThis(demoFunctionThatReturnsAString);   // ?
+
+// Experiment 8
+logThis(demoFunctionThatReturnsAString()); // ?
+```
 
 V8 - Getting data from inputs
 
