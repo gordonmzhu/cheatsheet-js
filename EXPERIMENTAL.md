@@ -248,7 +248,10 @@ logThis(demoFunctionThatReturnsAString);   // ?
 logThis(demoFunctionThatReturnsAString()); // ?
 ```
 
-V8 - Getting data from inputs
+## V8 - Getting data from inputs
+
+* Use inputs (`<input>`) to get user input.
+* Use `input.value` to get/set an input's value.
 
 V9 - Escape from the console
 
