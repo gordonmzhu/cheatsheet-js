@@ -250,8 +250,8 @@ logThis(demoFunctionThatReturnsAString()); // ?
 
 ## V8 - Getting data from inputs
 
-* Use inputs (`<input>`) to get user input.
-* Use `input.value` to get/set an input's value.
+* In your HTML, use `<input>` to get user input.
+* In your JavaScript, use `input.value` to get/set an input's value.
 
 V9 - Escape from the console
 
