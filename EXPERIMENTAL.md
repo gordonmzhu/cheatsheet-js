@@ -253,7 +253,28 @@ logThis(demoFunctionThatReturnsAString()); // ?
 * In your HTML, use `<input>` to get user input.
 * In your JavaScript, use `input.value` to get/set an input's value.
 
-V9 - Escape from the console
+## V9 - Escape from the console
+
+* In HTML, use `ul`s and `li`s for listing data.
+```
+<ul>
+  <li>First</li>
+  <li>Second</li>
+  <li>Third</li>
+</ul>
+```
+* Use `document.createElement` to create elements in JavaScript.
+```javascript
+var todoLi = document.createElement('li');
+```
+* Use the `appendChild` method to add elements to the page.
+```javascript
+var todosUl = document.getElementById('todos-ul');
+todosUl.appendChild(todoLi);
+```
+* Use the `innerHTML` property to get/set an element's html.
+* Use the `innerText` property to get/set an element's text.
+* Use `+` to combine strings. 
 
 V10 - Click to delete
 
