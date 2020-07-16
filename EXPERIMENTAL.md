@@ -276,7 +276,18 @@ todosUl.appendChild(todoLi);
 * Use the `innerText` property to get/set an element's text.
 * Use `+` to combine strings. 
 
-V10 - Click to delete
+## V10 - Click to delete
+
+* Functions passed to `addEventListener` are called with an event object, which describes the event that occurred.
+```javascript
+function remove(event) {
+  // We used event.currentTarget to access the remove button element that was clicked.
+  // Elements have an id property we can use to get/set the id.
+  var position = event.currentTarget.id;
+  todos.splice(position, 1);
+  displayTodos();
+}
+```
 
 V11 - Click to toggle
 
