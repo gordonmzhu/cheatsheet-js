@@ -277,7 +277,7 @@ todosUl.appendChild(todoLi);
 * Use `+` to combine strings. 
 
 ## V10 - Click to delete
-
+* Went through the pros/cons of different ways to access the remove button that was clicked. Making informed tradeoffs is one of the most important skills that you will learn.
 * Functions passed to `addEventListener` are called with an event object, which describes the event that occurred.
 ```javascript
 function remove(event) {
@@ -289,6 +289,14 @@ function remove(event) {
 }
 ```
 
-V11 - Click to toggle
+## V11 - Click to toggle
+
+* Reminder: element ids should be unique.
+* Got practice thinking through the pros/cons of different ways to extract position from ids.
+```javascript
+// We ended up choosing this technique.
+var idString = 'todo-0';
+var position = idString.split('-')[1];
+```
 
 V12 - Click to edit
