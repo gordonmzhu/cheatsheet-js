@@ -299,4 +299,8 @@ var idString = 'todo-0';
 var position = idString.split('-')[1];
 ```
 
-V12 - Click to edit
+## V12 - Click to edit
+
+* `prompt()` is a simple way to get user input.
+* Use `!==` to test for inequality.
+* Use `&&` to combine comparisons.
