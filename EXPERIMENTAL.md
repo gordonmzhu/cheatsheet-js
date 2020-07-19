@@ -291,8 +291,8 @@ function remove(event) {
 
 ## V11 - Click to toggle
 
-* Reminder: element ids should be unique.
-* Got practice thinking through the pros/cons of different ways to extract position from ids.
+* Element ids should be unique.
+* Practiced thinking through the pros/cons of different ways to extract position from ids.
 ```javascript
 // We ended up choosing this technique.
 var idString = 'todo-0';
